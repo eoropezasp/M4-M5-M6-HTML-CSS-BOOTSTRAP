@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
+
+
+
+body {
+    font-family: 'Dongle', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3.75rem;
+}
+
+.caja1,
+.caja2,
+.caja3 {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.125rem;
+    width: 56.25rem;
+    padding: .9375rem;
+    margin-bottom: 1em;
+    margin-left: 100%;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+
+}
+
+.caja1 {
+    background-color: orange;
+    animation-delay: 0.5s;
+}
+
+.caja2 {
+    background-color: palegoldenrod;
+    animation-delay: 1s;
+}
+
+.caja3 {
+    background-color: pink;
+    animation-delay: 1.5s;
+}
+
+
+
+
+@keyframes example {
+    0% {
+
+        margin-left: 100%;
+
+
+
+    }
+
+    100% {
+
+        margin-left: 0%;
+    }
+
+
+}
