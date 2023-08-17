@@ -8,22 +8,24 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
-    font-weight: 700;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 2rem;
     font-size: calc(3em + 1vw);
+    font-weight: 700;
     color: #04146c;
 }
 
 .card-title {
+    font-weight: 700;
     color: #0a2ff1;
     font-size: calc(1.5em + 1vw);
 }
 
 h3 {
+    font-weight: 700;
     color: #04146c;
     font-size: calc(0.8em + 1vw);
 }
@@ -31,7 +33,7 @@ h3 {
 p {
     color: #04146c;
     font-weight: 400;
-    font-size: calc(0.5em + 1vw);
+    font-size: calc(0.9em + 1vw);
 }
 
 
