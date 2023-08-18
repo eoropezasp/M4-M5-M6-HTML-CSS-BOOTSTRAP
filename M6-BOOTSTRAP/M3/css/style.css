@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,200;1,600&display=swap');
+/* font-family: 'Mulish', sans-serif; */
+
+:root {
+    --color-primario: #04146c;
+    --color-secundario: #8a9af1;
+    --color-terciario: #5974ff;
+
+
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+
+
+.form-label {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--color-primario);
+}
+
+.form-text {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.0813rem;
+    color: var(--color-primario);
+}
+
+.form-check-label {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--color-primario);
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    background-color: var(--color-terciario);
+}
+
+.form-control {
+    border-color: var(--color-secundario);
+}
+
+.form-check-input {
+    margin-top: .55em;
+    border-color: var(--color-secundario);
+}
